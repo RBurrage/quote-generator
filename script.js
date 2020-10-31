@@ -4,7 +4,7 @@ const authorText = document.getElementById('author');
 const twitterBtn = document.getElementById('twitter');
 const newQuoteBtn = document.getElementById('new-quote');
 const loader = document.getElementById('loader');
-const errorMsg = '<h2>Whoah! Something\'s wrong on our end!</h2><p>Please generate your quotes<span> <a href="https://quotes-generator.com/" target="_blank">elsewhere</a>!</span> ';
+const errorMsg = '<h2>Whoah! Something\'s wrong on our end!</h2><p>Please reload, or generate your quotes<span> <a href="https://quotes-generator.com/" target="_blank">elsewhere</a>!</span> ';
 const createErrorLink = document.getElementById('create-error-link');
 
 function showLoadingSpinner() {
